@@ -6,7 +6,7 @@ class TextualWeb < Formula
   url "https://files.pythonhosted.org/packages/f4/74/2782fb279bb87df76ccee538d813345087223e7efa3011ea2b3b77669249/textual_web-0.7.0.tar.gz"
   sha256 "b7e6f523694e5762155db5f8d216585b85a2dbc13489733798c683232135f4a7"
 
-  depends_on "python@3.11"
+  depends_on "python3"
 
   resource "aiohttp" do
     url "https://files.pythonhosted.org/packages/18/93/1f005bbe044471a0444a82cdd7356f5120b9cf94fe2c50c0cdbf28f1258b/aiohttp-3.9.3.tar.gz"

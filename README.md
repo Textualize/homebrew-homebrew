@@ -17,4 +17,5 @@ and then install any supported application.
 Applications currently supported by this tap are:
 
 - [Frogmouth](https://github.com/textualize/frogmouth)
+- [See](https://github.com/Textualize/textualize-see)
 - [Toolong](https://github.com/textualize/toolong)

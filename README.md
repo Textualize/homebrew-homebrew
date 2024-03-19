@@ -18,5 +18,5 @@ Applications currently supported by this tap are:
 
 - [Frogmouth](https://github.com/textualize/frogmouth)
 - [See](https://github.com/Textualize/textualize-see)
-- [textual-web](https://github.com/textualize/textual-web)
+- [textual-web](https://github.com/textualize/textual-web) *[Possibly need more work]*
 - [Toolong](https://github.com/textualize/toolong)

@@ -12,6 +12,11 @@ frogmouth: clean
 	pipenv run poet -f frogmouth > Formula/frogmouth.rb
 	sed -i '' 's/Shiny new formula/A Markdown browser for your terminal/' Formula/frogmouth.rb
 
+see: clean
+	pipenv install textualize-see
+	pipenv run poet -f textualize-see > Formula/see.rb
+	sed -i '' 's/Shiny new formula/A file opener for the terminal/' Formula/see.rb
+
 toolong: clean
 	pipenv install toolong
 	pipenv run poet -f toolong > Formula/toolong.rb

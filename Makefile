@@ -16,6 +16,7 @@ see: clean
 	pipenv install textualize-see
 	pipenv run poet -f textualize-see > Formula/see.rb
 	sed -i '' 's/Shiny new formula/A file opener for the terminal/' Formula/see.rb
+	sed -i '' 's/TextualizeSee/See/' Formula/see.rb
 
 toolong: clean
 	pipenv install toolong

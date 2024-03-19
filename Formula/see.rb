@@ -1,4 +1,4 @@
-class TextualizeSee < Formula
+class See < Formula
   include Language::Python::Virtualenv
 
   desc "A file opener for the terminal"

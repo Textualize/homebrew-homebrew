@@ -18,6 +18,11 @@ see: clean
 	sed -i '' 's/Shiny new formula/A file opener for the terminal/' Formula/see.rb
 	sed -i '' 's/TextualizeSee/See/' Formula/see.rb
 
+textual-web: clean
+	pipenv install textual-web
+	pipenv run poet -f textual-web > Formula/textual-web.rb
+	sed -i '' 's/Shiny new formula/Run TUIs and terminals in your browser/' Formula/textual-web.rb
+
 toolong: clean
 	pipenv install toolong
 	pipenv run poet -f toolong > Formula/toolong.rb
